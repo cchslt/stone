@@ -1,6 +1,7 @@
 package com.stone;
 
 import com.stone.domain.Home;
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -10,6 +11,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * Created by chenchen on 2017/5/31.
  */
 @SpringBootApplication
+// mapper 接口类扫描包配置
+@MapperScan("com.stone.dao")
 public class Application implements CommandLineRunner{
 
     @Autowired
