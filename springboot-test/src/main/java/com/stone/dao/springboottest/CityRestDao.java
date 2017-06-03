@@ -1,4 +1,4 @@
-package com.stone.dao;
+package com.stone.dao.springboottest;
 
 import com.stone.domain.City;
 

@@ -12,7 +12,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 @SpringBootApplication
 // mapper 接口类扫描包配置
-@MapperScan("com.stone.dao")
+//@MapperScan("com.stone.dao.*")
 public class Application implements CommandLineRunner{
 
     @Autowired

@@ -1,6 +1,6 @@
 package com.stone.service.impl;
 
-import com.stone.dao.CityRestDao;
+import com.stone.dao.springboottest.CityRestDao;
 import com.stone.domain.City;
 import com.stone.service.CityRestService;
 import org.springframework.beans.factory.annotation.Autowired;
