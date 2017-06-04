@@ -24,6 +24,7 @@
       <spring-boot-mybatis>1.2.0</spring-boot-mybatis>
       <mysql-connector>5.1.39</mysql-connector>
       <druid-version>1.0.18</druid-version>
+      <spring-boot-dubbo>1.0.0</spring-boot-dubbo>
   </properties>
 
   <dependencies>
@@ -67,6 +68,13 @@
       <groupId>com.alibaba</groupId>
       <artifactId>druid</artifactId>
       <version>${druid-version}</version>
+    </dependency>
+
+    <!-- Spring Boot Dubbo 依赖 -->
+    <dependency>
+      <groupId>io.dubbo.springboot</groupId>
+      <artifactId>spring-boot-starter-dubbo</artifactId>
+      <version>${spring-boot-dubbo}</version>
     </dependency>
   </dependencies>
 

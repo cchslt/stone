@@ -1,0 +1,76 @@
+package com.stone.springboot.domain;
+
+import java.io.Serializable;
+
+/**
+ * Created by chenchen on 2017/6/3.
+ */
+public class City implements Serializable {
+    private static final long serialVersionUID = -1L;
+
+    /**
+     * 城市编号
+     */
+    private Long cityId;
+    /**
+     * 省份编号
+     */
+    private Long provinceId;
+    /**
+     * 城市名称
+     */
+    private String cityName;
+    /**
+     * 城市描述
+     */
+    private String description;
+
+    public Long getCityId() {
+        return cityId;
+    }
+
+    public void setCityId(Long cityId) {
+        this.cityId = cityId;
+    }
+
+    public Long getProvinceId() {
+        return provinceId;
+    }
+
+    public void setProvinceId(Long provinceId) {
+        this.provinceId = provinceId;
+    }
+
+    public String getCityName() {
+        return cityName;
+    }
+
+    public void setCityName(String cityName) {
+        this.cityName = cityName;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public City(Long cityId, Long provinceId, String cityName, String description) {
+        this.cityId = cityId;
+        this.provinceId = provinceId;
+        this.cityName = cityName;
+        this.description = description;
+    }
+
+    @Override
+    public String toString() {
+        return "City{" +
+                "cityId=" + cityId +
+                ", provinceId=" + provinceId +
+                ", cityName='" + cityName + '\'' +
+                ", description='" + description + '\'' +
+                '}';
+    }
+}
