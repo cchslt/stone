@@ -40,11 +40,11 @@
             <artifactId>commons-io</artifactId>
             <version>2.4</version>
         </dependency>
-        <dependency>
-            <groupId>org.apache.parquet</groupId>
-            <artifactId>parquet-jackson</artifactId>
-            <version>1.7.0</version>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.apache.parquet</groupId>-->
+            <!--<artifactId>parquet-jackson</artifactId>-->
+            <!--<version>1.7.0</version>-->
+        <!--</dependency>-->
         <dependency>
             <groupId>org.apache.spark</groupId>
             <artifactId>spark-streaming-kafka_2.10</artifactId>
@@ -54,13 +54,6 @@
             <!--<groupId>com.alibaba</groupId>-->
             <!--<artifactId>fastjson</artifactId>-->
             <!--<version>1.2.35</version>-->
-        <!--</dependency>-->
-        <!--<dependency>-->
-            <!--<groupId>org.apache.spark</groupId>-->
-            <!--<artifactId>spark-core_2.11-1.5.2.logging</artifactId>-->
-            <!--<version>1.5.2</version>-->
-            <!--<scope>system</scope>-->
-            <!--<systemPath>${basedir}/lib/spark-core_2.11-1.5.2.logging.jar</systemPath>-->
         <!--</dependency>-->
         <!--<dependency>-->
             <!--<groupId>mysql</groupId>-->
