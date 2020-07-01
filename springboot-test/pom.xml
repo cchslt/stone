@@ -22,7 +22,7 @@
   <properties>
       <junit-version>4.12</junit-version>
       <spring-boot-mybatis>1.2.0</spring-boot-mybatis>
-      <mysql-connector>5.1.39</mysql-connector>
+      <mysql-connector>8.0.16</mysql-connector>
       <druid-version>1.0.18</druid-version>
       <spring-boot-dubbo>1.0.0</spring-boot-dubbo>
   </properties>
